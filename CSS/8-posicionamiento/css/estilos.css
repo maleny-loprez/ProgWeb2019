@@ -1,0 +1,49 @@
+/* Posicionamiento: Posicion de las cajas o rectangulos a lo largo del body */
+div{
+    /* Con Alt + alinea los puntos */
+    width     : 100px;
+    height    : 100px;
+    background: #4A88F4;
+    color     : white;
+    font-size : 30px;
+
+    margin: 5px;
+     border-radius: 5px; /*Redondea las esquinas de la caja */
+    /* Posiciona una caja tras otra, alineada....es en base a la pantalla */
+    float: left;
+
+}
+
+.caja{
+    /* Etiqueta por defaul position: static*/
+
+    /* relative va acompañado de: top,bottom,right,left */
+    /* El relative toma en cuenta el area donde va a trabajar */
+    /* position: relative;
+    top:0px ;
+    bottom:0px ;
+    right:0px ;
+    left:200px ; */
+
+    /* absolut: */
+    /* Toma toda la pagina para posicionarse, no respeta */
+    /* position: absolute;
+    top:0px ;
+    bottom:0px ;
+    right:0px ;
+    left:200px ; */
+
+    /* Hace que la caja se quede FIJA */
+    position: fixed;
+    top:0px ;
+    bottom:0px ;
+    right:0px ;
+    left:200px ;
+} 
+
+/* Posicionar imgen */
+img{
+    width: 200px;
+    float: left;
+    margin: 10px;
+}

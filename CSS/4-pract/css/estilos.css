@@ -1,0 +1,26 @@
+body{
+    background: black;
+    font-family: Verdana;
+}
+
+h1{
+    text-align: center;
+    background: blue;
+    padding: 18px;
+}
+
+p{
+    color:white;
+}
+
+p a{
+    color: orangered;
+}
+
+.primero{
+    font-size: 20px;
+}
+
+.segundo{
+    color:green;
+}

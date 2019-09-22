@@ -1,0 +1,23 @@
+/* FONDOS */
+/* El fondo debe de ir en el body */
+body{
+    /* background: #ffda79; */
+    /* background: url('../imagenes/fondo.jpg'); */
+    /* Para poner una imagen de fondo se pone url('son apostrofes') y dentro de ahi la direccion de la imagen */
+
+    /* background-repeat: no-repeat;
+    background-position: center 50px; */
+
+    /* background-repeat: repeat-x; */
+
+    /* background: url('../imagenes/dot-grid.png'); */
+
+    color:black;
+
+    /* Colores gradiantes en uigradients.com */
+    
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(255, 0, 0,.5), rgb(255, 242, 0,.5), rgb(30, 150, 0,.5)),url('../imagenes/dot-grid.png');  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(255, 0, 0,.5), rgb(255, 242, 0,.5), rgb(30, 150, 0,.5)) ,url('../imagenes/dot-grid.png'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

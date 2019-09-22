@@ -1,0 +1,17 @@
+div{
+    background: #218c74;
+    color:#ffff;
+    width: 40%;
+    height:140px;
+    padding: 30px;
+    margin: 20px;
+    /* margin: 15px 10px 12px 5px; */
+    /* Los margenes van a favor de las manecillas del reloj */
+    /* margin-top: Margen arriba  */
+
+    border: 10px solid #000;
+    display: inline-block;
+    /* El atributo inline hace que la caja tome toda esa parte para el esa division para el, no permite que se ponga otra caja de lado */
+    /* El inline-block permite que se junten dos cajas en un mismo div */
+
+}

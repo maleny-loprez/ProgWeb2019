@@ -1,0 +1,53 @@
+/* Selector universal*/
+
+/*
+*{
+    color: red;
+    margin: 0px;
+    padding: o
+}*/
+
+/*Selector de etiqueta */
+h2{
+    font-size: 50px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:blue;
+}
+
+/*Selector descendientes */
+/* Toma lo que esta dentro de la etiqueta como la a que eesta dentro de la p */
+/* Especificas dentro de cual etiqueta */
+p a{
+    color: purple;
+}
+
+/* Selector de clases */
+/* font-weight es para letra negrita */
+.atenuar{
+    font-weight: bold;
+
+}
+
+div.padre{
+    width: 100%;
+    height: 300px;
+    background: green;
+    padding: 25px;
+}
+
+div.hijo{
+    width: 300px;
+    height: 150px;
+    background: #B53471;
+    margin: 25px;
+    padding: 10px;
+}
+
+p.caja{
+    background: white;
+    margin: 10px;
+    display: inline;
+    padding: 20px;
+}

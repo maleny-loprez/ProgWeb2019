@@ -1,0 +1,33 @@
+h1{
+    font-size: 40px;
+    /* Palabras clave, solo son 17 colores */
+    background: green;
+    color: brown;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 40px;
+    /* MAS colores hexadecimales, van desde 000000 hasta ffffff */
+    background: #2c2c54;
+    color: #d1ccc0;
+    text-align: center;
+
+}
+
+h3{
+    font-size: 40px;
+    /* colores rgb*/
+    background: rgb(44, 44, 84);
+    color: rgb(209, 204, 192);
+    text-align: center;
+}
+
+h4{
+    font-size: 40px;
+    /* MAS colores rgba, para que se vea más opaco */
+    background: rgba(44, 44, 84);
+    color: rgba(209, 204, 1);
+    text-align: center;
+}

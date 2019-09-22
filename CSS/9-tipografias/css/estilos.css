@@ -1,0 +1,32 @@
+/* Solo para modificacion de texto */
+h1{
+    font-weight: normal;
+    text-align: center; /*Te permita alinear o centrarlo en toda la caja */
+    background: #ccc;
+    /* Solo agarra el ancho de la palabra  display: inline; */
+       
+}
+
+body{
+    font-family: Consolas, Verdana;
+}
+
+.uno ,.dos ,.tres{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px; /*Es como un espaciado */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; Como el tachado*/ 
+
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase;  */
+    /* text-transform: lowercase;  */
+    
+    /* letter-spacing: 20px; Espaiado entre cada letra */
+
+    /* word-spacing: 50px; Espaciado entre palabras */
+
+    text-shadow: 5px 5px 5px #000;  /*Le da sombre al texto */
+    /*           Para la derech     Para abajo  Tamaño de la sombre   Color */
+}

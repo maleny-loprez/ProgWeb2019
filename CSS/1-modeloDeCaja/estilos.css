@@ -1,0 +1,28 @@
+    body{
+        background: #fab1a0;
+    }
+    
+    h1{
+        background: #dfe6e9;
+        text-align: center;
+        color     : #222f3e;
+        border    : solid 2px #222f3e;
+        font-family: Verdana;
+        padding: 5px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 5px;
+
+      }
+
+      label{
+          display: block;
+      }
+
+      p{
+          color: #222f3e;
+          margin-left: 60px;
+          margin-right: 60px;
+          font-family: Verdana;
+          text-align:justify;
+      }
